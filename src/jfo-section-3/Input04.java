@@ -13,11 +13,13 @@ public class Input04 {
         
         //Does this line contain "BlueBumper"?
         System.out.println(sc.findInLine("BlueBumper"));
+        int theX = sc.nextInt();
+        int theY = sc.nextInt();
         //Store the next two numbers as xPosition and yPosition
         //Print these positions
         
         
-        System.out.println("X: "        +", Y: "        );
+        System.out.println("X: " + theX      +", Y: " + theY );
         sc.close();
     }    
 }
